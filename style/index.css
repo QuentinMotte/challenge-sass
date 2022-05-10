@@ -43,28 +43,28 @@ body main article #selling-points {
   flex-basis: 100%;
 }
 body main article #selling-points .adv-item-1 {
-  background: hsl(218deg, 50%, 50%);
-  color: hsl(117deg, 50%, 50%);
+  background: hsl(149deg, 50%, 50%);
+  color: hsl(23deg, 50%, 50%);
 }
 body main article #selling-points .adv-item-2 {
-  background: hsl(238deg, 50%, 50%);
-  color: hsl(180deg, 50%, 50%);
+  background: hsl(194deg, 50%, 50%);
+  color: hsl(228deg, 50%, 50%);
 }
 body main article #selling-points .adv-item-3 {
-  background: hsl(294deg, 50%, 50%);
-  color: hsl(6deg, 50%, 50%);
+  background: hsl(171deg, 50%, 50%);
+  color: hsl(30deg, 50%, 50%);
 }
 body main article #selling-points .adv-item-4 {
-  background: hsl(68deg, 50%, 50%);
-  color: hsl(4deg, 50%, 50%);
+  background: hsl(108deg, 50%, 50%);
+  color: hsl(48deg, 50%, 50%);
 }
 body main article #selling-points .adv-item-5 {
-  background: hsl(150deg, 50%, 50%);
-  color: hsl(255deg, 50%, 50%);
+  background: hsl(180deg, 50%, 50%);
+  color: hsl(345deg, 50%, 50%);
 }
 body main article #selling-points .adv-item-6 {
-  background: hsl(30deg, 50%, 50%);
-  color: hsl(186deg, 50%, 50%);
+  background: hsl(288deg, 50%, 50%);
+  color: hsl(180deg, 50%, 50%);
 }
 body main article code {
   background: #000;
