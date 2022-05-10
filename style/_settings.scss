@@ -1,0 +1,12 @@
+$font1: "Space Mono";
+$color-bg: #fff;
+$grey: #6b717f;
+$grey2: #8c8c8c;
+$pink: #bf4080;
+$padding: 16px;
+
+@mixin shadow($color) {
+    -webkit-box-shadow: 10px 10px 15px -4px $color;
+    -moz-box-shadow: 10px 10px 15px -4px $color;
+    box-shadow: 10px 10px 15px -4px $color;
+}

@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: $grey;
+    background: $color-bg;
+    font-family: $font1;
+    overflow-x: hidden;
+
+    h1,
+    h2,
+    h3 {
+        color: $pink;
+    }
+    h1 {
+        text-align: center;
+    }
+    h3 {
+        text-align: center;
+        font-size: 1.5em;
+        padding: $padding * 2;
+        margin-bottom: 0px;
+    }
+
+    main {
+        padding: 0 1em;
+        article {
+            display: flex;
+            flex-wrap: wrap;
+            section {
+                flex-grow: 1;
+                flex-basis: 45%;
+                border: 1px $grey2 solid;
+                @include shadow($grey);
+                padding: 16px;
+                margin: 16px;
+                clear: both;
+                overflow: auto;
+                box-sizing: border-box;
+            }
+            #selling-points {
+                flex-grow: 2;
+                flex-basis: 100%;
+            }
+            code {
+                background: #000;
+                border: 1px solid $grey;
+                color: $grey2;
+                page-break-inside: avoid;
+                font-family: monospace;
+                font-size: 15px;
+                line-height: 1.6;
+                margin-bottom: 1.6em;
+                max-width: 100%;
+                overflow: auto;
+                padding: $padding;
+                display: block;
+                word-wrap: break-word;
+            }
+            .before {
+                float: left;
+                width: 40%;
+            }
+            .after {
+                float: right;
+                width: 40%;
+            }
+        }
+        %message-shared {
+            border: 1px solid $grey2;
+            padding: $padding;
+            color: $color-bg;
+        }
+        .messages {
+            padding: 16px;
+            .success {
+                @extend %message-shared;
+                &:hover {
+                    background: green;
+                }
+            }
+            .error {
+                @extend %message-shared;
+                background: red;
+            }
+            .warning {
+                @extend %message-shared;
+                background-color: orange;
+            }
+        }
+    }
+}
