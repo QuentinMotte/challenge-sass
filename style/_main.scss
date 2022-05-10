@@ -40,6 +40,13 @@ body {
             #selling-points {
                 flex-grow: 2;
                 flex-basis: 100%;
+
+                @for $i from 1 through 6 {
+                    .adv-item-#{$i} {
+                        background: hsl($i * random(255), 50%, 50%);
+                        color: hsl($i * random(255), 50%, 50%);
+                    }
+                }
             }
             code {
                 background: #000;
